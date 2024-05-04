@@ -1,0 +1,13 @@
+block content
+  h1= title
+  p Go ahead and create a username and password
+  form(method="post") 
+    label(for="username") Username: 
+    input#username(type="text", name="username")
+    br
+    br
+    label(for="password") Password: 
+    input#password(type="text", name="password")
+    br
+    br
+    button(type="submit") Create Account
